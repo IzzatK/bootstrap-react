@@ -19,15 +19,15 @@
 
 <body>
     <!-- add social icons here-->
-    <nav class="navbar navbar-dark navbar-expand-sm  fixed-top">
+    <nav class="navbar navbar-light navbar-expand-sm  fixed-top">
         <div class="container"> <!-- the contents of nav bar will spread across screen w/o div container-->
             <button class="navbar-toggler order-sm-last" type="button" data-toggle="collapse"data-target="#Navbar"> <!-- the button collapses on sm-xs screen size-->
                 <span class="navbar-toggler-icon"></span>
             </button>
             <a class="navbar-brand mr-auto" href="#"><img src="img/logo.png" height="30" width="41"></a>
             <div class="collapse navbar-collapse" id="Navbar">
-               <ul class="navbar-nav mr-auto fa-ul"> <!-- fa ul class-->
-                  <li class="nav-item active"><a class="nav-link" href="#"><span class="fa fa-home fa-lg"></span>Products</a></li> <!-- active tag specifies current page-->
+               <ul class="navbar-nav mr-auto fa-ul " > <!-- fa ul class-->
+                  <li class="nav-item" id="activenav" ><a class="nav-link" href="#"><span class="fa fa-home fa-lg"></span>Products</a></li> <!-- active tag specifies current page-->
                   <li class="nav-item"><a class="nav-link" href="./aboutus.html"><span class="fa fa-info fa-lg"></span>Recipes</a></li>
                   <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-list fa-lg"></span>About</a></li>
                   <li class="nav-item"><a class="nav-link" href="./contactus.html"><span class="fa fa-address-card fa-lg"></span>Find Us</a></li>
@@ -164,61 +164,15 @@
     </div>
 
 <!-- above are example modals for a website using Bootstrap-->
-     <header class="jumbotron">
-        <div class="container">
-            <div class="row row-header align-items-center" id="jumbosmscreen">
-                <div class="col-4 col-sm-4 d-none d-sm-block"> <!-- same content row for xl,l,md screens-->
-        
-                    <h1>Ristorante con Fusion</h1>
-                    <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our lipsmacking creations will tickle your culinary senses!</p>
-                
-                </div>
-                <div class="col-4 col-sm-4 d-none d-sm-block  "><!-- give this image 4 columns, to center it inside of the 12 col Bootstrap layout-->
-                    <img src="img/logo.png" class="img-fluid float-right"> <!-- image inside-->
-                </div>
-                <div class="col-4 d-none d-sm-block">
-                  <!-- create tooltip using jQuery script-->  <!--<button type="button" class="btn btn-primary btn-lg pl-6 pr-6"
-                            data-toggle="tooltip" data-html="true" 
-                            title="Or call us at<br><strong>+85212345678</strong>"
-                            data-placement="bottom" id="reserve-btn">Reserve</button>   <!--Reserve table button goes here-->
-                            <span class="btn btn-warning">
-                                <a id="reservetableButton"> <!-- remove data-toggle=modal for assignment 4-->
-                                    <span class="fa fa-arrow-down"></span> 
-                                    <h2 class="text-white">Reserve Table</h2>
-                                </a>
-                            </span>
-                
-            </div> 
-        </div><!-- end the display row for xl and l screens -->
-            <div class="row row-header align-items-top d-xl-none d-l-none d-md-none d-sm-block d-block ml-5"> <!--create seperate rows for small and xs screens, AKA d-xl-none d-l-none-->
-                <h1 class="ml-3">Ristorante con Fusion</h1>
-                <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our lipsmacking creations will tickle your culinary senses!</p>
-            </div>
-            <div class="row align-items-middle d-xl-none d-l-none d-md-none pl-5 ml-5"> <!-- read above notes-->
-                <img src="img/logo.png" class="img-fluid pl-5 ml-5" id="indexsmimg">
-            </div>
-            <div class="row align-items-bottom offset-4 d-xl-none d-l-none d-md-none ml-5 mt-2">
-                <span class="btn btn-warning ml-5">
-                    <div class="ml-5 mr-5">
-                        <a data-toggle="modal" data-target="#reservetableModal"> <!-- must keep data-* attributes to ensure modal still functions for sm and xs screens-->
-                            <span class="fa fa-arrow-down"></span> 
-                            <h2 class="text-white">Reserve Table</h2>
-                        </a>
-                    </div>
-            </div>
-        </div>
-        
-    </div>
     
-    </header>
 
 
-<div class = "container-fluid mt-3">
+<div class = "container-fluid mt-5">
     <div class="row">
-    <div class="col-6 align-self-left ">
+    <div class="col-6 align-self-left mt-5">
         <img class="img-fluid" src="img/pizzaimg.png" >
     </div>
-    <div class="col-6 align-self-right align-items-right pl-5" id="card6col">
+    <div class="col-6 align-self-right align-items-right pl-5 mt-5" id="card6col">
         <div class="card align-items-center" id="topcard">
            <!-- <img class="card-img-top img-fluid" src="img/logo.png" alt="Swift4"> -->
            <div class="card-header" id="card-header">
@@ -368,45 +322,37 @@
         </div>
     -->
 
-    <footer class="footer">
+    <div class="container">
+        <div class="col-5">
+  
+        </div>
+        <div class="col-2">
+  
+        </div>
+  
+        <div class="col-5">
+            
+        </div>
+          </div>
+
+    <footer class="footer mt-5 pt-5">
         <div class="container">
-            <div class="row">             
-                <div class="col-4 offset-1 col-sm-2">
-                    <h5>Links</h5>
-                    <ul class="list-unstyled">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="./aboutus.html">About</a></li>
-                        <li><a href="#">Menu</a></li>
-                        <li><a href="./contactus.html">Contact</a></li>
-                    </ul>
-                </div>
-                <div class="col-7 col-sm-5">
-                    <h5>Our Address</h5>
-                    <address class="fa fa-address-card">
-		              121, Clear Water Bay Road<br>
-		              Clear Water Bay, Kowloon<br>
-		              HONG KONG<br>
-		             <i class="fa fa-phone"></i> Tel.: +852 1234 5678<br>
-		              <span class="fa fa-fax"></span>Fax: +852 8765 4321<br>
-		             <span class="fa fa-envelope"></span> Email: <a href="mailto:confusion@food.net">confusion@food.net</a>
-		           </address>
-                </div>
-                <div class="col-12 col-sm-4 align-self-center">
-                    <div class="text-center">
-                        <a class="btn btn-social-icon btn-google" href="http://google.com/+"><span class="fa fa-google-plus"></span></a>
-                        <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><span class="fa fa-facebook"></span></a>
-                        <a class="btn btn-social-icon btn-linkedin"href="http://www.linkedin.com/in/"><span class="fa fa-linkedin"></a>
-                        <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><span class="fa fa-twitter"></span></a>
-                        <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><span class="fa fa-youtube"></span></a>
-                        <a class="btn btn-social-icon"href="mailto:confusion@food.net"><span class="fa fa-envelope-o"></span></a>
-                    </div>
-                </div>
-           </div>
-           <div class="row justify-content-center">             
-                <div class="col-auto">
-                    <p>© Copyright 2018 Ristorante Con Fusion</p>
-                </div>
-           </div>
+            <div clas="row">
+      <div class="col-5 align-self-left">
+<h3> Follow Us Here!</h3>
+<br>
+<a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><span class="fa fa-facebook"></span></a>
+<a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><span class="fa fa-facebook"></span></a>
+      </div>
+      <div class="col-2"> <!-- create new vl classes for sm and xs screens-->
+        <div class="vl d-sm-none d-xs-none d-md-block"></div>
+        <div class ="vl d-sm-block d-md-none" id="vl2"></div>
+      </div>
+
+      <div class="col-5">
+
+      </div>
+      </div>
         </div>
     </footer>
 

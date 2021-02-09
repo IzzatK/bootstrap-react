@@ -210,13 +210,45 @@ padding-left:30px;
 }
 
 .footer {
-    background-color: #c7b7e4;
+    background-color: #ffd8b0;
     margin: 0px auto;
     padding: 20px 0px 20px 0px;
     background-size: 1000%;
+    height:257px;
+    position:relative;
+   
+}
+#vl2{
+    border-right: 6px solid green;
+    position:relative;
+    left: 227.7px;
+    bottom:100px;
+    height: 100px;
+    align-self:center;
+}
+@media (min-width: 576px){
+.vl {
+    border-right: 6px solid green;
+    position:relative;
+    left: 370px;
+    bottom:100px;
+    height: 100px;
+    align-self:center;
+  }
+}
+@media (max-width: 576px){
+    .vl{
+        position:relative;
+        left:100px;
+    }
+}
+.vl{
+    align-self:center;
+    position:relative;
+    left:370px;
 }
 .footer-contactus{
-    background-color: #c7b7e4;
+    background-color: #ffd8b0;
     margin: 0px auto;
     padding: 20px 0px 20px 0px;
     background-size: 1000%;
@@ -243,8 +275,17 @@ body{
     z-index: 0;
     
 }
+.navbar-nav.mr-auto.fa-ul li a{
+    color:black;
+}
+.navbar-nav.mr-auto.fa-ul  li#activenav a{
+    color:orange;
+}
+
+
 .navbar-dark {
-    background-color:#512da8 !important;
+    background-color:#ffffff; 
+    color:black;
 }
 .fa-phone{
     font-size:15px; /* Pelicana Chicken icon at top left can be a custom icon of company logo, alongside rectangular logo*/
