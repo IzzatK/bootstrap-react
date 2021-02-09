@@ -214,7 +214,7 @@ padding-left:30px;
     margin: 0px auto;
     padding: 20px 0px 20px 0px;
     background-size: 1000%;
-    height:257px;
+    height:287.7px;
     position:relative;
    
 }
@@ -226,7 +226,8 @@ padding-left:30px;
     height: 100px;
     align-self:center;
 }
-@media (min-width: 576px){
+/* small devices, smartphones and up */
+@media (min-width: 576px){ 
 .vl {
     border-right: 6px solid green;
     position:relative;
@@ -236,21 +237,12 @@ padding-left:30px;
     align-self:center;
   }
 }
-@media (max-width: 576px){
-    .vl{
-        position:relative;
-        left:100px;
-    }
-}
-.vl{
-    align-self:center;
-    position:relative;
-    left:370px;
-}
+
+
 .footer-contactus{
     background-color: #ffd8b0;
     margin: 0px auto;
-    padding: 20px 0px 20px 0px;
+    
     background-size: 1000%;
 }
 .full-width-div{
