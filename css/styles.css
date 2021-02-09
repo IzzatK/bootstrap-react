@@ -1,4 +1,34 @@
+.vertical-center {
+    height:100%;
+    width:100%;
+  
+    text-align: center;  /* align the inline(-block) elements horizontally */
+    font: 0/0 a;         /* remove the gap between inline(-block) elements */
+  }
 
+  #cardmiddle{
+      border:0px;
+  }
+  #card6col{
+      padding-left:100px;
+  }
+
+  #img6col{
+      width:87%;
+  }
+
+
+#topcard{
+    width:50%;
+    height:80%;
+    border: 0px;
+    
+}
+
+#card-header{
+    background-color:#ffffff;
+    border: 0px;
+}
 #carouselButton{
     z-index:1;
     position:absolute;
