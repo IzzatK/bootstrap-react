@@ -24,7 +24,7 @@
             <button class="navbar-toggler order-sm-last" type="button" data-toggle="collapse"data-target="#Navbar"> <!-- the button collapses on sm-xs screen size-->
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <a class="navbar-brand mr-auto" href="#"><img src="img/logo.png" height="30" width="41"></a>
+            <a class="navbar-brand mr-auto" href="#"><img src="img/moocho.PNG" height="57" width="67"></a>
             <div class="collapse navbar-collapse" id="Navbar">
                <ul class="navbar-nav mr-auto fa-ul " > <!-- fa ul class-->
                   <li class="nav-item" id="activenav" ><a class="nav-link" href="#"><span class="fa fa-home fa-lg"></span>Products</a></li> <!-- active tag specifies current page-->
@@ -170,13 +170,13 @@
 <div class = "container-fluid mt-5">
     <div class="row">
     <div class="col-6 align-self-left mt-5">
-        <img class="img-fluid" src="img/pizzaimg.png" >
+        <img class="img-fluid" src="img/moochojbox.PNG" >
     </div>
     <div class="col-6 align-self-right align-items-right pl-5 mt-5" id="card6col">
         <div class="card align-items-center" id="topcard">
            <!-- <img class="card-img-top img-fluid" src="img/logo.png" alt="Swift4"> -->
            <div class="card-header" id="card-header">
-            <h1>Featured</h1>
+            <h1>Featured</h1><!-- make this into a carousel maybe, with html tags jQuery func'n or inline Bootstrap func'n pause buttons-->
           </div>
             <div class="card-body">
          
@@ -197,7 +197,7 @@
             <div class="row">
             <div class="col-4 align-self-left">
                 <div class="card align-items-center" id="cardmiddle" >
-                    <img class="card-img-top img-fluid" src="img/logo.png" alt="Swift4" >
+                    <img class="card-img-top img-fluid"  id="middleimgs" src="img/brain.PNG" alt="Swift4" >
                     <div class="card-body">
                       <h4 class="card-title">Swift 4</h4>
                       <p class="card-text">Learn Swift 4</p>
@@ -208,7 +208,7 @@
             <div class="col-4 align-self-center">
                 <div class="card align-items-center" id="cardmiddle" >
                 
-                    <img class="card-img-top img-fluid" src="img/logo.png" alt="Swift4" >
+                    <img class="card-img-top img-fluid" id="middleimgs" src="img/heart.PNG" alt="Swift4" width="50" height="57" >
                     <div class="card-body">
                       <h4 class="card-title">Swift 4</h4>
                       <p class="card-text">Learn Swift 4</p>
@@ -218,7 +218,7 @@
             </div>
             <div class="col-4">
                 <div class="card align-items-center" id="cardmiddle" >
-                    <img class="card-img-top img-fluid" src="img/logo.png" alt="Swift4" >
+                    <img class="card-img-top img-fluid" id="middleimgs" src="img/eye.png" alt="Swift4" >
                     <div class="card-body">
                       <h4 class="card-title">Swift 4</h4>
                       <p class="card-text">Learn Swift 4</p>
@@ -232,7 +232,7 @@
     <div class = "container-fluid mt-5">
         <div class="row">
         <div class="col-6 align-self-left">
-            <img class="img-fluid" src="img/pizzaimg.png" >
+            <img class="img-fluid" src="img/moochojglass.PNG" >
         </div>
         <div class="col-6 align-self-right align-items-right pl-5 pb-md-5">
             <div class="card align-items-center" id="topcard">
@@ -322,35 +322,68 @@
         </div>
     -->
 
-    <div class="container">
-        <div class="col-5">
-  
-        </div>
-        <div class="col-2">
-  
-        </div>
-  
-        <div class="col-5">
-            
-        </div>
-          </div>
 
-    <footer class="footer mt-5 pt-5">
-        <div class="container">
-            <div clas="row">
-      <div class="col-5 align-self-left">
-<h3> Follow Us Here!</h3>
+<div class="jumbotron mb-0">
+<div class="container" >
+    <div class="row">
+<div class="col-6 align-self-left ml-5 pl-5">
+<h3 id="followusheader"> Find Us Here!</h3>
 <br>
-<a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><span class="fa fa-facebook"></span></a>
-<a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><span class="fa fa-facebook"></span></a>
-      </div>
-      <div class="col-2"> <!-- create new vl classes for sm and xs screens-->
-        <div class="vl d-sm-none d-xs-none d-md-block"></div>
+<div id="icons">
+<p>Discover where you can find a can of Moocho!</p>
+</div>
+</div>
+<div class="col-1"> <!-- create new vl classes for sm and xs screens-->
+<div class="vl  d-xs-none d-md-block" id="followusvl"></div>
+<div class ="vl d-sm-block d-md-none" id="vl2"></div>
+</div>
+
+<div class="col-5 align-items-right ml-5" id="locationsparagraph" >
+<p  class="d-md-none d-lg-none d-xl-block d-sm-none d-xs-none">list of cities and countries goes here</p>
+<br> 
+<p id="locationsparagraph2"class="d-md-none d-lg-block d-xl-none d-sm-none d-xs-none">list of cities and countries goes here</p>
+<p  id="locpar3"class="d-xl-none d-lg-none d-md-block d-sm-none align-text-left d-xs-none ">list of<br> countries<br> and cities goes here</p>
+<p id="locpar4"class="d-xl-none d-lg-none d-md-none d-sm-block">boner</p>
+</div>
+</div>
+</div>
+</div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+      <div class="col-6 align-self-left ml-5 pl-5">
+<h3 id="followusheader"> Follow Us Here!</h3>
+<br>
+<div id="icons">
+<a class="btn btn-social-icon btn-facebook ml-3" href="http://www.facebook.com/profile.php?id="><span class="fa fa-facebook"></span></a>
+<a class="btn btn-social-icon btn-instagram ml-3" href=""><span class="fa fa-instagram"></span></a>
+<a class="btn btn-social-icon btn-twitter ml-3" href=""><span class="fa fa-twitter"></span></a>
+</div>
+</div>
+      <div class="col-1"> <!-- create new vl classes for sm and xs screens-->
+        <div class="vl  d-xs-none d-md-block" id="followusvl"></div>
         <div class ="vl d-sm-block d-md-none" id="vl2"></div>
       </div>
 
-      <div class="col-5">
+      <div class="col-5 align-items-right ml-5" id="locationsparagraph">
+<div class="d-md-none d-lg-none d-xl-block d-sm-none d-xs-none">
+    <a href="/products.html">Products</a><a href="/recipes.html">Recipes</a><a href="/aboutus.html">About</a><br>
+    <a href="/findus.html">Findus</a><a href="/index.html">Home</a>
+</div>
+<div id="locationsparagraph2"class="d-md-none d-lg-block d-xl-none d-sm-none d-xs-none">
+    <a href="/products.html">Products</a><a href="/recipes.html">Recipes</a><a href="/aboutus.html">About</a><br>
+    <a href="/findus.html">Findus</a><a href="/index.html">Home</a>
+</div>
 
+<div id="locpar3"class="d-xl-none d-lg-none d-md-block d-sm-none align-text-left d-xs-none ">
+    <a href="/products.html">Products</a><a href="/recipes.html">Recipes</a><a href="/aboutus.html">About</a><br>
+    <a href="/findus.html">Findus</a><a href="/index.html">Home</a>
+</div>
+<div id="footerpar4"class="d-xl-none d-lg-none d-md-none d-sm-block">
+    <a href="/products.html">Products</a><a href="/recipes.html">Recipes</a><a href="/aboutus.html">About</a><br>
+    <a href="/findus.html">Findus</a><a href="/index.html">Home</a>
+</div>
       </div>
       </div>
         </div>
