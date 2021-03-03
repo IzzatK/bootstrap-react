@@ -26,10 +26,24 @@
     position:relative;
     right:370px;
 }
+#locpar5
+{
+    position:relative;
+    right: 420px;
+}
+#locpar6
+{
+    position:relative;
+    right:570px;
+    bottom:200px
+
+
+}
 #footerpar4
 {
     position:relative;
-    right:420px;
+    right:570px;
+    bottom:200px;
 }
 #findus3
 {
