@@ -163,6 +163,23 @@
           right:307px;
       }
   }
+  @media(max-width:525px)
+  {
+      #xshidden
+      {
+          display:none !important;
+          visibility: hidden !important;
+      }
+  }
+  @media(min-width:525px)
+  {
+      #smandmdhidden
+      {
+      display:none !important;
+      visibility:hidden !important;
+      }
+
+  }
 
   @media(max-width:503px)
   {
