@@ -163,7 +163,7 @@
           right:307px;
       }
   }
-  @media(max-width:525px)
+  @media(max-width:780px)
   {
       #xshidden
       {
@@ -171,7 +171,7 @@
           visibility: hidden !important;
       }
   }
-  @media(min-width:525px)
+  @media(min-width:780px)
   {
       #smandmdhidden
       {
