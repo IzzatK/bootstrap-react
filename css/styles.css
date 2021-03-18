@@ -110,7 +110,38 @@
     align-self:left;
 
   }
+  #modalRecipe1
+  {
+      border-style:none;
+  }
+  #modaldialog
+  {
+      border-style:none;
+  }
+  #modalcard
+  {
+      border-style:none;
+  }
+  #modalheader
+  {
+      position:relative;
+      left:127px;
+      background-color:#ffffff;
+      width:30%;
+  }
+  #modalheader3
+  {
+    position:relative;
+    left:157px;
+    background-color:#ffffff;
+    width:30%;
+  }
+  #modalheader2
+  {
+    
+    list-style-type:none;
 
+  }
 #followusvl{
     border-right: 6px solid green;
     position:relative;
