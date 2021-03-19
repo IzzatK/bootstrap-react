@@ -18,246 +18,217 @@
 </head>
 
 <body>
-<nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+    <div class ="d-flex">
+        <div class="row">
+            <div class="align-self-left">
+                <a class="btn btn-social-icon btn-facebook ml-3" href="http://www.facebook.com/profile.php?id="><span class="fa fa-facebook"></span></a>
+                <a class="btn btn-social-icon btn-instagram ml-3" href=""><span class="fa fa-instagram"></span></a>
+                <a class="btn btn-social-icon btn-twitter ml-3" href=""><span class="fa fa-twitter"></span></a>
+            </div>
+            <a class="align-middle avbar-brand mr-auto d-md-none d-lg-none d-xl-block d-xs-none d-sm-none" href="#"><img src="img/moocho.PNG" height="130" width="130" id="logoimg0" class=""></a>
+            <a class="align-middle navbar-brand mr-auto d-md-none d-lg-block d-xl-none d-xs-none d-sm-none" href="#"><img src="img/moocho.PNG" height="130" width="130" id="logoimg1" class=""></a>
+            <a class=" align-middle navbar-brand mr-auto d-md-none d-lg-none d-xl-none d-xs-none d-sm-block" href="#"><img src="img/moocho.PNG" height="130" width="130"  id="logoimg4"class=""></a>
+            <a class=" align-middle navbar-brand mr-auto d-md-block d-lg-none d-xl-none d-xs-none d-sm-none" href="#"><img src="img/moocho.PNG" height="130" width="130"  id="logoimg2"class=""></a>
+
+            <a class=" d-sm-none d-xs-block" id="logoimg7"><img src="img/moocho.PNG" height="130" width="130"></a>
+            <a class=" d-sm-none d-xs-block" id="logoimg8"><img src="img/moocho.PNG" height="130" width="130"></a>
+
+
+            
+        </div>
+        
+        
+    </div>
+    <!-- add social icons here-->
+    <nav class="navbar navbar-light navbar-expand-sm   ">
         <div class="container"> <!-- the contents of nav bar will spread across screen w/o div container-->
-            <button class="navbar-toggler" type="button" data-toggle="collapse"data-target="#Navbar"> <!-- the button collapses on sm-xs screen size-->
+            <button class="navbar-toggler order-sm-last" type="button" data-toggle="collapse"data-target="#Navbar"> <!-- the button collapses on sm-xs screen size-->
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <a class="navbar-brand mr-auto" href="index.html"><img src="img/logo.png" height="30" width="41"></a>
+            <!-- Make logo into its own top row aboce the navbar-->
+         
+
             <div class="collapse navbar-collapse" id="Navbar">
-               <ul class="navbar-nav mr-auto fa-ul"> <!-- must create a fontawesome ul class-->
-                  <li class="nav-item"><a class="nav-link" href="./index.html"><span class="fa fa-home fa-lg"></span>Home</a></li> <!-- active tag specifies current page-->
-                  <li class="nav-item "><a class="nav-link" href="./aboutus.html"><span class="fa fa-info fa-lg"></span>About</a></li>
-                  <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-list fa-lg"></span>Menu</a></li>
-                  <li class="nav-item active"><a class="nav-link" href="./contactus.html"><span class="fa fa-address-card fa-lg"></span>Contact</a></li>
+               <ul class="navbar-nav mr-auto fa-ul " > <!-- fa ul class-->
+                  <li class="nav-item" id="activenav" ><a class="nav-link" href="./contactus.html"><span class="fa fa-list fa-lg"></span>Products</a></li> <!-- active tag specifies current page-->
+                  <li class="nav-item"><a class="nav-link" href="./aboutus.html"><span class="fa fa-info fa-lg"></span>Recipes</a></li>
+                  <li class="nav-item"><a class="nav-link" href="./index.html"><span class="fa fa-home fa-lg"></span>About</a></li>
+                  <li class="nav-item"><a class="nav-link" href=""><span class="fa fa-address-card fa-lg"></span>Find Us</a></li> <!-- link to the id = footer of the page here-->
             </div>
                 </ul>
+             
         </div>
     </nav>
-    <header class="jumbotron">
-        <div class="container">
-                    <div class="row row-header align-items-center" id="jumbosmscreen">
-                <div class="col-4 col-sm-4 d-none d-sm-block"> <!-- same content row for xl,l,md screens-->
-        
-                    <h1>Ristorante con Fusion</h1>
-                    <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our lipsmacking creations will tickle your culinary senses!</p>
-                
-                </div>
-                <div class="col-4 col-sm-4 d-none d-sm-block  "><!-- give this image 4 columns, to center it inside of the 12 col Bootstrap layout-->
-                    <img src="img/logo.png" class="img-fluid float-right"> <!-- image inside-->
-                </div>
-                           <!-- <div class="col-4 d-none d-sm-block">
-                  <!-- create tooltip using jQuery script-->  <!--<button type="button" class="btn btn-primary btn-lg pl-6 pr-6"
-                            data-toggle="tooltip" data-html="true" 
-                            title="Or call us at<br><strong>+85212345678</strong>"
-                            data-placement="bottom" id="reserve-btn">Reserve</button>   <!--Reserve table button goes here
-                            <span class="btn btn-warning">
-                                <a id="reservetableButton"> <!-- remove data-toggle=modal for assignment 4
-                                    <span class="fa fa-arrow-down"></span> 
-                                    <h2 class="text-white">Reserve Table</h2>
-                                </a>
-                            </span>
-                
-                            </div>  -->
-                    </div><!-- end the display row for xl and l screens -->
-            <div class="row row-header align-items-top d-xl-none d-l-none d-md-none d-sm-block d-block ml-5"> <!--create seperate rows for small and xs screens, AKA d-xl-none d-l-none-->
-                <h1 class="ml-3">Ristorante con Fusion</h1>
-                <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our lipsmacking creations will tickle your culinary senses!</p>
-            </div>
-            <div class="row align-items-middle d-xl-none d-l-none d-md-none pl-5 ml-5"> <!-- read above notes-->
-                <img src="img/logo.png" class="img-fluid pl-5 ml-5" id="indexsmimg">
-            </div>
-            <!-- <div class="row align-items-bottom offset-4 d-xl-none d-l-none d-md-none ml-5 mt-2">
-                <span class="btn btn-warning ml-5">
-                    <div class="ml-5 mr-5">
-                        <a data-toggle="modal" data-target="#reservetableModal"> <!-- must keep data-* attributes to ensure modal still functions for sm and xs screens
-                            <span class="fa fa-arrow-down"></span> 
-                            <h2 class="text-white">Reserve Table</h2>
-                        </a>
-                    </div> 
-            </div> -->
+    <div class="d-flex text-center ml-5" id="productheader">
+        <div class="row offset-5 col-4 ">
+            <h2>Products</h2>
         </div>
+    </div>
+
+
+    <div class = "container-fluid mt-5" id="xshidden">
+        <div class="row">
+        <div class="col-4 offset-2 col-xs-4 align-self-left mt-5">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="img/apple@3x.png" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">moocho juice product<h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                 
+                </div>
+              </div>
+        </div>
+        <div class="col-4  col-xs-4 align-self-right align-items-right pl-5 mt-5" id="card6col">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="img/grape@3x.png" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">moocho juice product</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+        </div>
+    </div>
+    </div>
+    <!-- Above is the cards for sm breakpoints up to XL breakpoints. 
+         Below are the cards for xs breakpoints, from 525 px downwards. -->
+    <div class="container-fluid " id="smandmdhidden">
+        <div class="row col-9 offset-2" id="smandmdhidden">
+            <div class=" align-self-left mt-5">
+                <div class="card ml-5 pr-5 pl-5" style="width: 18rem;">
+                    <img class="card-img-top" src="img/apple@3x.png" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">moocho juice product<h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+            </div>
+        </div>
+        <div class="row col-9 offset-2">
+            <div class=" align-self-left mt-5">
+
+            <div class="card ml-5 pr-5 pl-5" style="width: 18rem;">
+                <img class="card-img-top" src="img/grape@3x.png" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">moocho juice product</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+</div>
+        </div>
+    </div>
+
         
+    <div class = "container-fluid mt-5" id="xshidden">
+        <div class="row">
+        <div class="col-4 offset-2 col-xs-4 align-self-left mt-5">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="img/guava@3x.png" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">moocho juice product<h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+        </div>
+        <div class="col-4  col-xs-4 align-self-right align-items-right pl-5 mt-5" id="card6col">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="img/lychee@3x.png" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">moocho juice product</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+        </div>
+    </div>
+    </div>
+            <!-- Above is the cards for sm breakpoints up to XL breakpoints. 
+                Below observe the cards for xs breakpoints going from 525 px all the way down to 0px-->
+                <div class="container-fluid " id="smandmdhidden">
+                    <div class="row col-9 offset-2" id="smandmdhidden">
+                        <div class=" align-self-left mt-5">
+                            <div class="card ml-5 pr-5 pl-5" style="width: 18rem;">
+                                <img class="card-img-top" src="img/guava@3x.png" alt="Card image cap">
+                                <div class="card-body">
+                                  <h5 class="card-title">moocho juice product<h5>
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                    <div class="row col-9 offset-2">
+                        <div class=" align-self-left mt-5">
+            
+                        <div class="card ml-5 pr-5 pl-5" style="width: 18rem;">
+                            <img class="card-img-top" src="img/lychee@3x.png" alt="Card image cap">
+                            <div class="card-body">
+                              <h5 class="card-title">moocho juice product</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                          </div>
+            </div>
+                    </div>
+                </div>
+
+    <div class="container-fluid mt-5 mb-5" id="xshidden">
+        <div class="row col-9 offset-5"> <!-- hide this for xs screens and create a more centered button. Hide it using media query in css #id selector-->
+        </div>
+        </div>
+
+        
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+          <div class="col-6 align-self-left ml-5 pl-5">
+    <h3 id="followusheader"> Follow Us Here!</h3>
+    <br>
+    <div id="icons">
+    <a class="btn btn-social-icon btn-facebook ml-3" href="http://www.facebook.com/profile.php?id="><span class="fa fa-facebook"></span></a>
+    <a class="btn btn-social-icon btn-instagram ml-3" href=""><span class="fa fa-instagram"></span></a>
+    <a class="btn btn-social-icon btn-twitter ml-3" href=""><span class="fa fa-twitter"></span></a>
+    </div>
+    </div>
+          <div class="col-1"> <!-- create new vl classes for sm and xs screens-->
+            <div class="vl  d-xs-none d-md-block" id="followusvl"></div>
+            <div class ="vl d-sm-block d-md-none" id="vl2"></div>
+          </div>
+    
+          <div class="col-5 align-items-right ml-5" id="locationsparagraph">
+    <div class="d-md-none d-lg-none d-xl-block d-sm-none d-xs-none">
+        <a href="/products.html">Products</a><a href="/recipes.html">Recipes</a><a href="/aboutus.html">About</a><br>
+        <a href="/findus.html">Findus</a><a href="/index.html">Home</a>
+    </div>
+    <div id="locationsparagraph2"class="d-none d-lg-block d-xl-none">
+        <a href="/products.html">Products</a><a href="/recipes.html">Recipes</a><a href="/aboutus.html">About</a><br>
+        <a href="/findus.html">Findus</a><a href="/index.html">Home</a>
     </div>
     
-    </header>
-
-    <div class="container">
-        <div class="row">
-            <ol class="col-12 breadcrumb">
-                <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
-                <li class="breadcrumb-item active">Contact Us</li>
-            </ol>
-            <div class="col-12">
-               <h3>Contact Us</h3>
-               <hr>
-            </div>
-        </div>
-
-        <div class="row row-content">
-           <div class="col-12">
-              <h3>Location Information</h3>
-           </div>
-            <div class="col-12 col-sm-4 offset-sm-1">
-                   <h5>Our Address</h5>
-                    <address class="fa fa-address-card">
-		              121, Clear Water Bay Road<br>
-		              Clear Water Bay, Kowloon<br>
-		              HONG KONG<br>
-		              <span class="fa-phone"></span>: +852 1234 5678<br>
-		              <span class="fa-fax"></span>: +852 8765 4321<br>
-		              <span class="fa-envelope"></span>Email:<a href="mailto:confusion@food.net"></a>
-		           </address>
-            </div>
-
-
-            <div class="col-12 col-sm-6 offset-sm-1">
-                <h5>Map of our Location</h5>
-            </div>
-            <div class="col-12 col-sm-11 offset-sm-1">
-                <div class="btn-group" role="group">
-                    <a role="button" class="btn btn-primary" href="tel:+85212345678"><i class="fa fa-phone"></i>Call us</a>
-                    <a role="button" class="btn btn-info" href=""><span class="fa fa-skype"></span>Skype</a>
-                    <a role="button" class="btn btn-success" href="mailto:confusion@food.net"><span class="fa fa-envelope-o"></span>Email</a>
-                    <!-- created a anchor button using bootstrap-->
-                </div>
-            </div>
-        </div>
-
-        <div class="row row-content">
-           <div class="col-12 col-sm-5 col-xs-3">
-              <h3>Send us your Feedback</h3>
-           </div>
-            <div class="col-12 col-md-9">
-                <form>
-                    <div class="form-group row"> <!-- this provides us with 12 columns-->
-                        <label for="firstname" class="col-md-2 col-form-label">First Name</label>
-                        <div class="col-md-10">
-                            <input type="text" class="form-control" id="firstname" name="firstname"
-                                   placeholder="First Name">
-                        </div>
-                    </div> <!-- close the form-group row-->
-
-                    <div class="form-group row"> <!-- this provides us with 12 columns in a singular div class=row-->
-                        <label for="lastname" class="col-md-2 col-form-label">Last Name</label>
-                        <div class="col-md-10">
-                            <input type="text" class="form-control" id="lastname" name="lastname"
-                                   placeholder="Last Name">
-                                   </div> 
-                                </div>
-                    
-
-                     <div class="form-group row"> 
-                        <label for="telnum" class="col-12 col-md-2 col-form-label">Contact Tel.</label>
-                         <div class="col-5 col-md-3">
-                             <input type="tel" class="form-control" id="areacode" name="areacode"
-                                               placeholder="Area Code">
-                                </div>
-                                <div class="col-7 col-md-7">
-                                <input type="tel" class="form-control" id="telnum" name="telnum"
-                                placeholder="Tel. Number">
-                                </div>
-                                </div>
-                                <div class="form-group row"> 
-                                    <label for="emailid" class="col-md-2 col-form-label">Email</label>
-                                    <div class="col-md-10">
-                                        <input type="email" class="form-control" id="emailid" name="emailid"
-                                               placeholder="Email">               <!-- form validation will ensure that only an email is entered here-->
-                                    </div>
-                                    <div class="form-group row col-12">
-                                        <div class="col-md-6 offset-md-2 offset-xs-1">
-                                            <div class="form-check">
-                                                <input type="checkbox" class="form-check-input"
-                                                       name= "approve" id ="approve" value="">
-                                                       <label class="form-check-label" for="approve"> <!-- add onCheck or onSubmit = "JS func'n" tag here-->
-                                                           <strong>May we contact you?</strong>
-                                                       </label>
-                                                    
-                                            </div>
-                                        </div>
-                                            <div class="col-md-3 offset-md-1">
-                                                 <select class="form-control">
-                                                     <option>Tel.</option>
-                                                     <option>Email</option>
-                                                 </select>
-                                            </div>
-                                        </div>
-                                        <div class="form-group row"> <!-- create a seperate form-group row for your label tag, to ensure it's on LHS of page-->
-                                            <label for="feedback" class="col-sm-4 col-label">
-                                                Your Feedback</label>
-                                        </div>
-                                        <div class="form-group row">
-                                              <div class="col-md-10 justify-content-right offset-2">
-                                                <textarea class="form-control" id="feeback" name="feedback"
-                                                        rows="12" placeholder="Email">  </textarea>    
-                                                       
-                                              </div>         <!-- form validation will ensure that only an email is entered here-->
-                                        </div>
-                                        <br>
-                                     
-                                    </div>
-
-                                    <!-- add another /div to make footer smaller on this page-->
-                                   
-                </form> <!-- button is located outside form-->
-                <div class="row">
-                    <div class="offset-md-2 col-md-10">
-                        <button type="submit" class="btn btn-primary" onSubmit="">
-                            Send Feedback
-                        </button>
-                    </div>
-                </div>
-                
-            </div>
-             <div class="col-12 col-md">
-            </div>
-       </div>
-
+    <div id="locpar3"class="d-xl-none d-lg-none d-md-block d-sm-none align-text-left d-xs-none ">
+        <a href="/products.html">Products</a><a href="/recipes.html">Recipes</a><a href="/aboutus.html">About</a><br>
+        <a href="/findus.html">Findus</a><a href="/index.html">Home</a>
     </div>
+    <div id="locpar4"class="d-none d-md-none d-lg-none d-xl-none d-sm-block ">
+        <a href="/products.html">Products</a><br><a href="/recipes.html">Recipes</a><br><a href="/aboutus.html">About</a><br>
+        <a href="/findus.html">Findus</a><br><a href="/index.html">Home</a>
+    </div>
+    <div id="footerpar4"class="d-xs-block d-sm-none d-md-none d-lg-none d-xl-none ">
+        <a href="/products.html">Products</a><br><a href="/recipes.html">Recipes</a><br><a href="/aboutus.html">About</a><br>
+        <a href="/findus.html">Findus</a><br><a href="/index.html">Home</a>
+    </div>
+          </div>
+          </div>
+            </div>
+        </footer>
 
-    <footer class="footer">
-        <div class="container">
-            <div class="row">             
-                <div class="col-4 offset-1 col-sm-2">
-                    <h5>Links</h5>
-                    <ul class="list-unstyled">
-                        <li><a href="./index.html">Home</a></li>
-                        <li><a href="./aboutus.html">About</a></li>
-                        <li><a href="#">Menu</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
-                </div>
-                <div class="col-7 col-sm-5">
-                    <h5>Our Address</h5>
-                    <address>
-		              121, Clear Water Bay Road<br>
-		              Clear Water Bay, Kowloon<br>
-		              HONG KONG<br>
-                      <i class="fa fa-phone fa-lg"></i>: +852 1234 5678<br>
-                      <i class="fa fa-fax fa-lg"></i>: +852 8765 4321<br>
-                      <i class="fa fa-envelope fa-lg"></i>: 
-                      <a href="mailto:confusion@food.net">confusion@food.net</a>
-		           </address>
-                </div>
-                <div class="col-12 col-sm-4 align-self-center">
-                    <div class="text-center">
-                        <a class="btn btn-social-icon btn-google" href="http://google.com/+"><i class="fa fa-google-plus"></i></a>
-                        <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><i class="fa fa-facebook"></i></a>
-                        <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"><i class="fa fa-linkedin"></i></a>
-                        <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
-                        <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
-                        <a class="btn btn-social-icon" href="mailto:"><i class="fa fa-envelope-o"></i></a>
-                    </div>
-                </div>
-           </div>
-           <div class="row justify-content-center">             
-                <div class="col-auto">
-                    <p>© Copyright 2018 Ristorante Con Fusion</p>
-                </div>
-           </div>
-        </div>
-    </footer>
-    <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.3/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js" integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf" crossorigin="anonymous"></script>
+    <script
+  src="https://code.jquery.com/jquery-3.5.1.min.js"
+  integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+  crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/@popperjs/core@2"></script>
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>

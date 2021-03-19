@@ -1,3 +1,18 @@
+@media(min-width:1320px) and (max-width:1600px)
+{
+    #xshidden
+    {
+        position:relative;
+        left:77px;
+    }
+}
+#productheader
+{
+    position:relative;
+    left:25.7px;
+}
+
+
 #findus2{
     background-image:url("img/lightorange");
     background-size: 1000px 1000px;
@@ -163,19 +178,19 @@
   #logoimg0
   {
       position:relative;
-      left:757px;
+      left:557px;
   }
   #logoimg1
   {
       position:relative;
-      left:570px;
+      left:410px;
   }
   /*@media(min-width:768px max-width:991px)*/
   
   #logoimg2
   {
       position:relative;
-      left:447px;
+      left:307px;
 
   }
   @media(min-width:765px)
@@ -264,8 +279,33 @@
   #logoimg4
   {
       position:relative;
-      left:287px;
+      left:107px;
   }
+  @media(min-width:503px) and (max-width:533px)
+  {
+      #logoimg4
+      {
+          display:none;
+      }
+  }
+
+  @media(min-width:0px) and (max-width:371px)
+  {
+      #logoimg8
+      {
+          display:none;
+      }
+
+  }
+
+  @media(min-width:370px) and (max-width:373px)
+  {
+      #logoimg4
+      {
+          display:none;
+      }
+  }
+
   @media(max-width:764px)
   {
       #logoimg3
