@@ -1,3 +1,11 @@
+
+@media(min-width:1601px)
+{
+    #xshidden{
+    position:relative;
+    left:107px;
+    }
+}
 @media(min-width:1320px) and (max-width:1600px)
 {
     #xshidden
@@ -6,6 +14,23 @@
         left:77px;
     }
 }
+@media(min-width:1420px)
+{
+    #locpar1{
+        position:relative;
+        left:197px;
+        
+    }
+}
+@media(min-width:1200px)and (max-width:1279px)
+{
+    #locpar1
+    {
+     position:relative;
+     right:77px;
+    }
+}
+
 #productheader
 {
     position:relative;
@@ -39,6 +64,11 @@
     right:470px;
   
 }
+#locationsparagraph27
+{
+    position:absolute;
+    right:517.5px;
+}
 #locpar3
 {
     position:relative;
@@ -68,6 +98,10 @@
 {
     position:relative;
     right:470px;
+}
+#locpar47
+{
+    display:none;
 }
 #locpar5
 {
@@ -193,6 +227,14 @@
     height: 200px;
     align-self:left;
 
+  }
+  @media(min-width:1400px)
+  {
+      #followusvl
+      {
+          position:relative;
+          left:-117px;
+      }
   }
   #followusvl2{
     border-right: 6px solid green;
