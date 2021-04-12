@@ -228,6 +228,7 @@
     height: 200px;
     align-self:left;
 
+
   }
   @media(min-width:1400px)
   {
@@ -235,6 +236,7 @@
       {
           position:relative;
           left:-117px;
+          
       }
   }
   #followusvl2{
@@ -790,3 +792,4 @@ body{
         left:427px;
     }
 }
+
