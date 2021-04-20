@@ -392,6 +392,56 @@
       }
 
   }
+  @media(max-width:480px)
+  {
+      #logoimg0
+      {
+          display:none;
+      }
+      #logoimg1
+      {
+          display:none;
+      }
+      #logoimg2
+      {
+          display:none;
+      }
+      #logoimg4
+      {
+          position:relative;
+          left:37px;
+      }
+      #logoimg7
+      {
+          display:none;
+      }
+      #logoimg8
+      {
+          display:none;
+      }
+      #locpar1
+      {
+          display:none;
+      }
+      #locationsparagraph2
+      {
+          display:none;
+      }
+      #locpar3
+      {
+          display:none;
+      }
+      #footerpar4
+      {
+          position:relative;
+          top:27.77px;
+      }
+      #locpar6
+      {
+          position:relative;
+          top:27.77px;
+      }
+  }
 
 
 
@@ -515,6 +565,7 @@ padding-right:50px;
     padding-right 50px
     padding-top 50px
     padding-bottom 50px;
+    max-width:100%;
 
     
     
@@ -729,7 +780,7 @@ body{
 .navbar-nav.mr-auto.fa-ul li a{
     color:black;
 }
-.navbar-nav.mr-auto.fa-ul  li#activenav a{
+.navbar-nav.mr-auto.fa-ul li#activenav a{
     color:orange;
 }
 
