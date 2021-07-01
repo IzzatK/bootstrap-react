@@ -1,5 +1,50 @@
 
 /* 992 px for top logo position*/
+
+
+@media(min-width:713px) and (max-width:779px)
+{
+    #smandmdhidden1
+    {
+        position:relative;
+        left:50px;
+    }
+}
+
+@media(min-width:520px) and (max-width:620px)
+{
+    #smandmdhidden1
+    {
+        position:relative;
+        left:-25px;
+    }
+}
+
+@media(min-width:450px) and (max-width:519px)
+{
+    #smandmdhidden1
+    {
+        position:relative;
+        left:-57px;
+    }
+}
+@media(min-width:395px) and (max-width:449px)
+{
+    #smandmdhidden1
+    {
+        position:relative;
+        left:-82px;
+    }
+}
+
+@media(min-width:335px) and (max-width:394px)
+{
+    #smandmdhidden1
+    {
+        position:relative;
+        left:-100px;
+    }
+}
 @media(min-width:1601px)
 {
     #xshidden{
@@ -298,8 +343,7 @@
   {
       #smandmdhidden
       {
-      display:none !important;
-      visibility:hidden !important;
+     
       }
 
   }
