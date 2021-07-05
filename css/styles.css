@@ -2,6 +2,14 @@
 /* 992 px for top logo position*/
 
 
+
+@media(min-width:767px) and (max-width:780px)
+{
+    #mdscreencards
+    {
+        display:block
+    }
+}
 @media(min-width:713px) and (max-width:779px)
 {
     #smandmdhidden1
@@ -331,7 +339,7 @@
       }
 
   }
-  @media(max-width:780px)
+  @media(max-width:767px)
   {
       #xshidden
       {
@@ -339,7 +347,7 @@
           visibility: hidden !important;
       }
   }
-  @media(min-width:780px)
+  @media(min-width:767px) /* use to make things NOT display (display none) on sm screen and up */
   {
       #smandmdhidden
       {
