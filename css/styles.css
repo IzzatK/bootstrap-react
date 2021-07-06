@@ -392,6 +392,21 @@
 #orangebutton
 {
     background-color: darkorange;
+    border:none;
+    font-size:24px;
+    font-family:nunito;
+}
+#orangebutton3
+{
+    background-color: darkorange;
+    border:none;
+    font-size:24px;
+    text-align:center;
+    position:relative;
+    left:-4.5px;
+    font-family:nunito;
+
+    
 }
 #orangebutton2
 {
