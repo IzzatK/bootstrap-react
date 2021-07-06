@@ -176,6 +176,24 @@
     right:570px;
     bottom:17px;
 }
+@media(min-width:389px) and (max-width:439px)
+{
+    #footerpar4
+    {
+        position:relative;
+        left:-630px;
+        bottom:17px;
+    }
+}
+@media(min-width:440px) and (max-width:475px)
+{
+    #footerpar4
+    {
+        position:relative;
+        left:-575px;
+        bottom:17px;
+    }
+}
 #findus3
 {
     background-color:orange;
@@ -338,6 +356,59 @@
           left:172px;
       }
 
+  }
+@media(min-width:340px) and (max-width:400px)
+{
+    #orangebutton2
+    {
+        position:relative;
+        left:117px;
+    }
+}
+@media(min-width:401px) and (max-width:475px)
+{
+    #orangebutton2
+    {
+        position:relative;
+        left:111.7px;
+    }
+}
+@media(min-width:476px) and (max-width:575px)
+{
+    #orangebutton2
+    {
+        position:relative;
+        left:95.7px;
+    }
+}
+@media(min-width:576px) and (max-width:675px)
+{
+    #orangebutton2
+    {
+        position:relative;
+        left:90.7px;
+    }
+}
+#orangebutton
+{
+    background-color: darkorange;
+}
+#orangebutton2
+{
+    background-color: darkorange;
+}
+
+  @media(min-width:768px) and (max-width:790px)
+  {
+      #xshidden
+      {
+      
+      }
+      #recipe1and3card
+      {
+      position:relative;
+      right:57px;
+      }
   }
   @media(max-width:767px)
   {
